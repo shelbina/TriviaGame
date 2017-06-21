@@ -1,0 +1,19 @@
+body {
+	background:url("../images/greengrass.jpg");
+	background-repeat:repeat;
+	vertical-align:middle;
+	align-content:center;
+}
+
+.quizContainer{
+	color:#5c9522;
+	background-color:#ffdd72;
+	text-align:center;
+	width:600px;
+}
+
+.timer {
+	color:#5c9522;
+	background-color:#ffdd72;
+	float:right;
+}
