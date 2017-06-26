@@ -5,15 +5,66 @@ body {
 	align-content:center;
 }
 
+header {
+	color:#5c9522;
+	background-color:#ffdd72;
+	text-align:center;
+	padding:20px;
+	margin:30px;
+	border-style:solid;
+	border-color:#ce0000;
+	border-width:10px;
+}
+
+ul {
+	list-style:none;
+}
+
+.nextButton {
+	background-color:#ff9e00;
+	color:#fff;
+	width:15%;
+	padding:20px;
+	display:block;
+	margin:0 auto;
+}
+
+.game {
+
+}
+
 .quizContainer{
 	color:#5c9522;
 	background-color:#ffdd72;
 	text-align:center;
-	width:600px;
+	align-content:center;
+	padding:20px;
+	margin:30px;
+	width:35%;
+	height:35%;
+	border-style:solid;
+	border-color:#ce0000;
+	border-width:10px;
+	font-weight:bold;
+	float:left;
 }
 
 .timer {
 	color:#5c9522;
+	font-size: 30px;
 	background-color:#ffdd72;
 	float:right;
+	text-align:center;
+	width:35%;
+	height:35%;
+	padding:20px;
+	margin:30px;
+	border-style:solid;
+	border-color:#ce0000;
+	border-width:10px;
+}
+
+.timerImg {
+	height:50%;
+	width:50%;
 }

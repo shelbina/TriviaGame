@@ -7,9 +7,11 @@
 		<title>Greyhound Trivia</title>
 	</head>
 	<body>
-		<div class="timer">60</div>
-	    <div class="quizContainer">
-	         <h1>Greyhound Trivia</h1>
+		<header>
+			<h1>Greyhound Trivia</h1>
+			<img src="assets/images/run.gif" alt="GreyhoundRun">
+		</header>
+		<div class="quizContainer">
 	        <div class="question"></div>
 	        <ul class="choiceList"></ul>
 	        <div class="quizMessage"></div>
@@ -17,6 +19,13 @@
 	        <div class="nextButton">Next Question</div>
 	        <br>
 	    </div>
+	    <div class="timer">Seconds:
+	        <div class="timer-container" id="#run-the-timer">
+			<span class="seconds">60</span>
+ 			<span class="timeout_message_show">Your time is up!</span>
+ 			</div>
+ 			<img class="timerImg" src="assets/images/race.jpg" alt="FastDog">
+ 		</div>
 	<script rel="stylesheet" type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>	
 	<script type="text/javascript" src="assets/javascript/app.js"></script>
 	</body>

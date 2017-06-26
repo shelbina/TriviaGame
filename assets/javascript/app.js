@@ -3,6 +3,20 @@
 ///display number of questions answered correctly and incorrectly
 alert ("Press ok to answer 6 Greyhound trivia questions in 1 minute." );
 
+window.onload = function () {
+    jQuery('.timeout_message_show').hide();
+    var seconds = jQuery('span.second').text();
+    seconds = parseInt(seconds);
+        if (isNaN(seconds)) {
+            seconds = 00;
+        }
+        if (seconds == 60) {
+         seconds = 59;
+        }
+        displaySecond = document.querySelector('span.second');
+        startTimer(displaySecond);
+    };
+
 
 ///set up questions and answers
 var questions = [{
